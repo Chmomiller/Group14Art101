@@ -1,0 +1,26 @@
+h1 {
+    font-size: 200%;
+}
+
+p {
+    font-family: "Helvetica";
+}
+
+img {
+    width:199px;
+    height:408px;
+    border-radius: 25px;
+    float: right;
+}
+
+body {
+    background-color: #383838;
+}
+
+
+#content {
+    border-radius: 25px;
+    background-color: #8D948D;
+    padding: 20px;
+    margin: 20px;
+}
