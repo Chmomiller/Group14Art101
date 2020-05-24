@@ -1,0 +1,41 @@
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+	color: #242424;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+  background-color: #c1ebf5;
+  background-size: auto;
+  opacity: 0.6;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
