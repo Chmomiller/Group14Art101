@@ -1,13 +1,18 @@
-h1 {
+body {
+  background-color: #8bbaf7;
+}
 
+h1 {
+  text-align: center;
 }
 
 h2 {
-
+  text-align: center;
 }
 
 p {
 	color: #242424;
+  text-align: center;
 }
 
 ul {
