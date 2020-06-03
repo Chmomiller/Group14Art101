@@ -1,5 +1,5 @@
 body {
-  background-color: lightgreen;
+  background-color: #8bbaf7;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h3{
 }
 
 #content1 {
-  background-color: #fed8b1;
+  background-color: white;
   width: auto;
   padding: 20px;
   margin: 50px;
