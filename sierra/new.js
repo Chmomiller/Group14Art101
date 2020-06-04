@@ -1,12 +1,16 @@
 ScrollReveal().reveal('.headline');
-ScrollReveal().reveal('.dont', {delay: 1000 });
-ScrollReveal().reveal('.tagline', { delay: 2000 });
-ScrollReveal().reveal('.punchline', { delay: 2000});
-ScrollReveal().reveal('.sew', {delay:3000});
-ScrollReveal().reveal('.title3', {delay: 3500});
-ScrollReveal().reveal('.downfall', {delay: 4000});
-ScrollReveal().reveal('.h2', {delay: 4000});
-ScrollReveal().reveal('.column', {delay:4500});
+ScrollReveal().reveal('.dont', {delay: 100 });
+ScrollReveal().reveal('.tagline', { delay: 200 });
+ScrollReveal().reveal('.punchline', { delay: 200});
+ScrollReveal().reveal('.sew', {delay:300});
+ScrollReveal().reveal('.title3', {delay: 350});
+ScrollReveal().reveal('.downfall', {delay: 400});
+ScrollReveal().reveal('.h2', {delay: 400});
+ScrollReveal().reveal('.column', {delay:450});
+ScrollReveal().reveal('.day', {delay:400});
+ScrollReveal().reveal('.day2', {delay:450});
+ScrollReveal().reveal('.age', {delay:400});
+ScrollReveal().reveal('.age2', {delay:450});
 
 
 function goBack() {
