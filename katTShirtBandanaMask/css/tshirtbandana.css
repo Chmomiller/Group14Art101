@@ -1,13 +1,28 @@
-h1 {
+body {
+  background-color: #02254d;
+}
 
+h1 {
+  text-align: center;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  border: groove 10px #326fa8;
 }
 
 h2 {
-
+  text-align: center;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  border: groove 10px #326fa8;
 }
 
 p {
 	color: #242424;
+  text-align: center;
 }
 
 ul {
@@ -18,10 +33,29 @@ li {
 
 }
 
+#tshirt-description {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+}
 
+#tshirt-pros-cons {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+}
 
-
-
+#tshirt-how-to-wear-make {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+}
 
 .column {
   float: left;
