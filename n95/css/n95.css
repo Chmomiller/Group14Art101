@@ -1,11 +1,16 @@
+html{
+  font-family: 'Antic Didone';
+}
+
 body {
-  background-color: orange;
+  background-color: #8bbaf7;
 }
 
 h1 {
+  font-family: 'Antic Didone';
   font-size: 40px;
   text-align: center;
-  background-color: #4a8f3c;
+  background-color: white;
   margin-bottom: 50px;
   padding: 20px;
   margin-left: 30px;
@@ -15,9 +20,10 @@ h1 {
 }
 
 h2 {
+  font-family: 'Antic Didone';
  font-size: 40px;
   text-align: center;
-  background-color: #4a8f3c;
+  background-color: white;
   margin-bottom: 50px;
   padding: 20px;
   margin-left: 30px;
@@ -27,9 +33,10 @@ h2 {
 }
 
 p {
+  font-family: 'Antic Didone';
  font-size: 30px;
   text-align: center;
-  background-color: #4a8f3c;
+  background-color: white;
   margin-bottom: 50px;
   padding: 20px;
   margin-left: 30px;
@@ -38,9 +45,10 @@ p {
 
 }
 h3{
+  font-family: 'Antic Didone';
    font-size: 40px;
   text-align: center;
-  background-color: #4a8f3c;
+  background-color: white;
   margin-bottom: 50px;
   padding: 20px;
   margin-left: 30px;
@@ -49,9 +57,10 @@ h3{
 
 }
 h4{
+  font-family: 'Antic Didone';
   font-size: 40px;
   text-align: center;
-  background-color: #4a8f3c;
+  background-color: white;
   margin-bottom: 50px;
   padding: 20px;
   margin-left: 30px;
@@ -61,7 +70,7 @@ h4{
 }
 
 #content1 {
-  background-color: #4a8f3c;
+  background-color: #326fa8;
   width: auto;
   padding: 20px;
   margin: 50px;
