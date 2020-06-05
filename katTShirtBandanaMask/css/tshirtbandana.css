@@ -1,3 +1,7 @@
+html {
+  font-family: 'Antic-Didone', serif;
+}
+
 body {
   background-color: #02254d;
 }
@@ -39,6 +43,7 @@ li {
   width: auto;
   padding: 20px;
   margin: 50px;
+  text-align: center;
 }
 
 #tshirt-pros-cons {
@@ -47,6 +52,7 @@ li {
   width: auto;
   padding: 20px;
   margin: 50px;
+  text-align: center;
 }
 
 #tshirt-how-to-wear-make {
@@ -55,6 +61,33 @@ li {
   width: auto;
   padding: 20px;
   margin: 50px;
+  text-align: center;
+}
+
+#bandana-description {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}
+
+#bandana-how-to-wear-make {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}
+#helpful-links {
+  border: groove 10px #326fa8;
+  background-color: #8bbaf7;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
 }
 
 .column {
