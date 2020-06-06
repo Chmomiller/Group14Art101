@@ -5,7 +5,7 @@
 */
 
 //scroll through website to reveal parts of page
-ScrollReveal().reveal('#content', { delay: 100});
+ScrollReveal().reveal('#tshirt-description', { delay: 200});
 
 function goBack() {
   window.history.back();
