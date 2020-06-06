@@ -35,4 +35,4 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			        // do stuff
 			        console.log("Error:", textStatus, errorThrown);
 			    }
-			})
+			});
