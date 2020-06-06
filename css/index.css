@@ -44,3 +44,12 @@ h3 {
   border: groove 10px rgb(181, 151, 129);
   font-size: 40px;
 }
+
+#covid-api {
+   background-color: white;
+  width: auto;
+  padding: 20px;
+  margin: 50px;
+  border: groove 10px rgb(181, 151, 129);
+  font-size: 40px;
+}

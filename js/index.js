@@ -25,10 +25,11 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        var thing = data.reports[0];
-			        console.log(thing);
+			        //setting the data to variables
+			        var caseNumEl = $('<p>').html(data.reports[0].cases);
 			        //appending to output
-			        $("#covid-api").append(thing);
+			        $("#covid-api").append($('<h2>').html(COVID-19 Global Cases (RealTime)));
+			        $("covid-api").append(caseNumEl);
 			        
 			    },
 			    // What we do if the api call fails
