@@ -25,11 +25,8 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        //creating needed elements
-			       var titleEl = $('<h2>').html(data.totalCases);
-
 			        //appending to output
-			        $("#output").append(titleEl);
+			        $("#output").append(data.totalCases);
 			        
 			    },
 			    // What we do if the api call fails
