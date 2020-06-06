@@ -13,7 +13,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			// Using the core $.ajax() method
 			$.ajax({
 			    // The URL for the request (from the api docs)
-			    url: "https://covid19-server.chrismichael.now.sh/api/v1",
+			    url: "https://covid19-server.chrismichael.now.sh/api/v1/AllReports",
 			    // The data to send (will be converted to a query string)
 			    data: { },
 			    // Whether this is a POST or GET request
@@ -25,7 +25,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        var thing = data.entries[0];
+			        var thing = data.reports[0];
 			        console.log(thing);
 			        //appending to output
 			        $("#output").append(thing);
