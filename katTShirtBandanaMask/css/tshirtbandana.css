@@ -1,9 +1,7 @@
-html {
-  font-family: 'Antic-Didone';
-}
-
 body {
   background-color: #02254d;
+  font-family: 'Antic Didone';
+  font-weight: bold;
 }
 
 h1 {
@@ -29,12 +27,12 @@ p {
   text-align: center;
 }
 
-ul {
-
-}
-
-li {
-
+button {
+  background-color: #a7c5f2;
+  font-family: 'Antic Didone';
+  color:white;
+  padding: 10px;
+  font-size: 20px;
 }
 
 #tshirt-description {
