@@ -25,8 +25,9 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
+			        var thing = data[0].AllReports;
 			        //appending to output
-			        $("#output").append(data[0].AllReports);
+			        $("#output").append(thing);
 			        
 			    },
 			    // What we do if the api call fails
