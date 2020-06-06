@@ -5,7 +5,7 @@
 */
 
 //scroll through website to reveal parts of page
-ScrollReveal().reveal('#content');
+ScrollReveal().reveal('#content', { delay: 100});
 
 function goBack() {
   window.history.back();
