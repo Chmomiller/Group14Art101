@@ -25,7 +25,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        var thing = data.reports[0].cases;
+			        var thing = data.reports[0];
 			        console.log(thing);
 			        //appending to output
 			        $("#covid-api").append(thing);
