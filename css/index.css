@@ -31,9 +31,10 @@ h3 {
   margin: 30px;
 }
 
-ul {
-  font-family: 'Antic Didone';
+.list {
+  padding-left: 150px;
 }
+
 
 #content1 {
   background-color: white;
