@@ -1,7 +1,7 @@
 
 //adding the scroll reveal so that the ids slowly show up.
 //source: https://scrollrevealjs.org/guide/installation.html
-ScrollReveal().reveal('.header');
+/*ScrollReveal().reveal('.header');
 ScrollReveal().reveal('.paragraph', { delay: 100 });
 ScrollReveal().reveal('.list', { delay: 100 });
 
