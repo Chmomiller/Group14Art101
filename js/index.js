@@ -25,12 +25,8 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        //creating apiObj
-			        var apiObj = {
-			        	"totalCases: data.totalCases, recovered: data. recovered, deaths: data.deaths, activeCases: data.activeCases, closedCases: data.closedCases, lastUpdate: data.lastUpdate"};
-
 			        //creating needed elements
-			       var titleEl = $('<h2>').html(apiObj.totalCases);
+			       var titleEl = $('<h2>').html(data.totalCases);
 
 			        //appending to output
 			        $("#output").append(titleEl);
