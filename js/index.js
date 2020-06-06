@@ -26,6 +26,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			        console.log(data);
 
 			        var thing = data[0].AllReports;
+			        console.log(thing);
 			        //appending to output
 			        $("#output").append(thing);
 			        
