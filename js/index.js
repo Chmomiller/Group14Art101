@@ -25,7 +25,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			    success: function(data) {
 			        console.log(data);
 
-			        var thing = data.reports[0];
+			        var thing = data.reports[0].cases;
 			        console.log(thing);
 			        //appending to output
 			        $("#output").append(thing);
