@@ -26,8 +26,8 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			        console.log(data);
 
 			        //setting the data to variables
-			        var caseNumEl = $('<p>').html(data.reports[0].cases);
-			        var caseNumTitle = $('<h2>').text("COVID-19 Global Cases RealTime");
+			        var caseNumEl = $('<h2>').html(data.reports[0].cases);
+			        var caseNumTitle = $('<h1>').text("COVID-19 Global Cases RealTime");
 			        //appending to output
 			        $("#covid-api").append(caseNumTitle);
 			        $("covid-api").append(caseNumEl);
