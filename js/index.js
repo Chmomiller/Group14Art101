@@ -27,13 +27,19 @@ ScrollReveal().reveal('.list', { delay: 100 });
 
 			        //setting the data to variables
 			        var caseNumEl = data.reports[0].cases;
+			        var deathNumEl = data.reports[0].deaths;
+			        var recoveredNumEl = data.reports[0].recovered;
+			        var activeNumEl = data.reports[0].active_cases[0].currently_infected_patients;
 			        //testing to see if correct number is showing
 			        console.log(caseNumEl);
+			        console.log(deathNumEl);
+			        console.log(recoveredNumEl);
+			        console.log(activeNumEl);
 
 			        var caseNumTitle = $('<h1>').text("COVID-19 Global Cases RealTime");
 			        //appending to output
 			        $("#covid-api").append(caseNumTitle);
-			        $("covid-api").attr(caseNumEl);
+			        $("covid-api").append(caseNumEl);
 			        
 			    },
 			    // What we do if the api call fails
