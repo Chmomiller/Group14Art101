@@ -33,7 +33,7 @@ ScrollReveal().reveal('.list', { delay: 100 });
 			        var caseNumTitle = $('<h1>').text("COVID-19 Global Cases RealTime");
 			        //appending to output
 			        $("#covid-api").append(caseNumTitle);
-			        $("covid-api").html(caseNumEl);
+			        $("covid-api").attr(caseNumEl);
 			        
 			    },
 			    // What we do if the api call fails
